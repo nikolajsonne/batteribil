@@ -3,29 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🔋🚙 punktum dk</title>
+    <title>🔋 🚙 punktum dk</title>
 
     <style>
-        /* Apply background color to the entire page */
+        /* Center the content using flexbox */
         body {
-            background-color: lightblue; /* Choose your desired color */
-            margin: 0; /* Remove any default margin from the body */
-            height: 100vh; /* Ensure the background covers the entire viewport height */
+            font-family: "Arial", sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full height of the viewport */
+            margin: 0;
+            background: rgb(164,162,200);
+            background: radial-gradient(circle, rgba(164,162,200,1) 0%, rgba(103,134,108,1) 100%);
+        }
+            .button {
+            background-color: #007bff; /* Button color */
+            color: white; /* Text color */
+            padding: 10px 20px; /* Padding inside the button */
+            text-align: center; /* Center text */
+            text-decoration: none; /* Remove underline */
+            display: inline-block; /* Make it inline-block */
+            font-size: 16px; /* Font size */
+            border-radius: 5px; /* Rounded corners */
+            border: none; /* Remove border */
+            cursor: pointer; /* Change cursor on hover */
         }
 
-        h1.large-text {
-            font-size: 48px;
-            margin-bottom: 5px; /* Reduce space below the heading */
+        .button:hover {
+            background-color: #0056b3; /* Darker color on hover */
+        }
+        h1 {
+            text-align: center;
+            font-size: 36px; /* Large heading */
+             margin-bottom: 5px;
+             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
         }
 
         p {
-            margin-top: 0; /* Remove space above the paragraph */
-            font-size: 18px; /* Optional: adjust font size for the paragraph */
+            font-size: 18px; /* Smaller paragraph text */
+            margin-bottom: 5px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        /* You can create classes for more customization */
+        .small-text {
+            font-size: 12px;
+             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        .large-text {
+            font-size: 48px;
+             text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Shadow for image */
+            margin-bottom: 10px; /* Optional: space below the image */
+        
         }
     </style>
 </head>
 <body>
     <h1 class="large-text">🔋🚙 punktum dk</h1>
-
+     
+     <p></p>
+   
+    <p></p>
+    <p></p>
+     <a href="index.html" class="button">dyt!</a>
 </body>
-</html>
